@@ -1,1 +1,1 @@
-# LILY-A-Shopper-s-BestFriend
+# LILY: A Shopper's BestFriend
