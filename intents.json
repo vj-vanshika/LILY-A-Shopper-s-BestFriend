@@ -1,0 +1,382 @@
+  {
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good day",
+          "hola",
+          "Namaste"
+
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi, good to see you again"
+        ]
+      },
+
+      {
+        "tag": "google",
+        "patterns": [
+            "google",
+            "search",
+            "internet"
+        ],
+        "responses": [
+            "Redirecting to Google..."
+        ]
+    },
+
+    {
+      "tag": "options",
+      "patterns": [
+          "How you could help me?",
+          "What can  you do?",
+          "What help you provide?",
+          "How you can be helpful?",
+          "What support is offered?"
+      ],
+      "responses": [
+          "My Name is LILY and I am a shopper's bestfriend",
+        "Hi there, my name is LILY and you can fire me up with your shopping queries "]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact details of customer support",
+        "Contact customer support",
+        "Can't find answers, how do I contact the customer support directly?"
+        
+      ],
+      "responses": [
+        "Contact Email: shein.ac.in , Contact Number: 0836 2250879/ 0836 2357747",
+        "Please reach out to us at flipkart.ac.in or Ph: 0836 2250879/ 0836 2357747"
+      ]
+    },
+    {
+      "tag": "cancel",
+      "patterns": [
+        "i want to cancel my order",
+        "how can i cancel my order?",
+        "Can i cancel my order?"
+        
+      ],
+      "responses": [
+        
+        "We do offer a cancel policy for orders placed under 2 days, for canceling your order please refer to our cancel order segment under your orders bar"
+      ]
+    },
+    {
+      "tag": "subscription",
+      "patterns": [
+        "Tell me about your subscription"
+        ],
+      "responses": [
+        "The subscription costs 199 rupees per year"
+        ]
+    },
+    {
+      "tag": "benefits of membership",
+      "patterns": [
+        "what are the benefits your membership",
+        "elaborate on adavantages of your subscription"
+        ],
+      "responses": [
+        "Membership benefits include: no delivery charges,fast delivery compared to others, some additional discounts on selected products from time to time and early notifications on seasonal sales."
+        ]
+    },
+    {
+      "tag": "return policy",
+      "patterns": [
+        "do you have a return policy?",
+        "any exchange policy available?",
+        "how can i return the products?"
+        ],
+      "responses": [
+        "We provide 7 day return policy and 2 day exchange service (unused ofcourse) depending upon the product, unfortunately there is no return policy on eatables",
+        "for return and exchanging the product: please visit our return policy section under your current order sections"
+        ]
+    },
+    {
+      "tag": "cart",
+      "patterns": [
+        "what are the products in my cart",
+        "can you tell me products in my cart"
+        ],
+      "responses": [
+        "Ofcourse!, You have one boats earphone priced 1500 rupees, 1 percy jackson novel set priced 1000 ruppees and a metro black heels sandal priced 1000 rupees"
+        ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "is delivery available in my pincode :248002",
+        "is delivery available in delhi area",
+        "do you deliver in dehradun"
+        ],
+      "responses": [
+        "Yes, we deliver here",
+        "We've got you covered, Happy Shopping!"
+        ]
+    },
+    {
+      "tag": "tracking",
+      "patterns": [
+        "My order is not delivered yet, it was placed on monday",
+        "My order number 1234 is missing",
+        "help in tracking my order",
+        "where is my order"
+        
+        ],
+      "responses": [
+        "We are very sorry for the delay, your order will reach you as soon as possible probably by the end of this week",
+        "Sorry for the inconvenience!, we have texted you with a tracking link on your registered mobile number.",
+        "We apologize for the delay, it will reach you within 2-3 days"
+        ]
+    },
+
+    {"tag": "payments",
+         "patterns": ["Do you take credit cards?","can i pay in cash?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard, cash , UPI and Netbanking", "We accept most major credit cards and netbanking"]
+        },
+        {
+          "tag": "recommendations",
+          "patterns": ["suggest me some trendy products","Items you have?","what do you got?"],
+          "responses": [
+            "We provide products ranging from electronics, beauty-grooming, lifestyle,books and grocery items ",
+            "You should try our latest trend setter H&M's black trousers",
+            "There you go: Our latest Boats Headphones"
+          ]
+        },
+
+        {
+          "tag": "sales",
+          "patterns": ["can you tell me latest sales","tell me about latest sales","What offers are there?","sales and offers"],
+          "responses": [
+            "40%! off on all beauty products under the sale of 2000 rupees",
+            "Buy 1 get 1 on all fiction books!",
+            "5% cashback on HDFC credit card on maximum purchase of 1000 rupees"
+            
+          ]
+        },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting, happy shopping!",
+          "Have a nice day shopping with us",
+          "New offers await you, till next time",
+          "Goodbye, happy shopping!"
+        ]
+      },
+
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+        ]
+      },
+
+  
+      {
+        "tag": "datetime",
+        "patterns": [
+            
+            "date",
+            "time",
+            "tell me the date","day","what day is is today"
+        ],
+        "responses": [
+            "Date and Time"
+        ]
+    },
+
+    {
+      "tag": "haha",
+      "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny"
+      ],
+      "responses": [
+          "Glad I could make you laugh !"
+      ]
+  },
+
+  {
+    "tag": "activity",
+    "patterns": [
+        "what are you doing",
+        "what are you upto"
+    ],
+    "responses": [
+        "Talking to you, of course!"
+    ]
+  },
+
+  {
+    "tag": "weather",
+    "patterns": [
+        "temperature",
+        "weather",
+        "how hot is it"
+    ],
+    "responses": [
+        "..."
+    ]
+  },
+
+  {
+    "tag": "timer",
+    "patterns": [
+      "set a timer"
+    ],
+    "responses": [
+      "..."
+    ]
+  },
+
+  {
+    "tag": "cricket",
+    "patterns": [
+      "current cricket matches",
+      "cricket score"
+    ],
+    "responses": [
+      "..."
+    ]
+  },
+  {
+    "tag": "appreciate",
+    "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+    ],
+    "responses": [
+        "Thank you!"
+    ]
+  },
+  {
+    "tag": "resources",
+    "patterns": [
+        
+        "Tell me some resources for learning programming",
+        "Where can i learn programming from?"
+    ],
+    "responses": [
+        "W3School is an excellent platform",
+        "Go try Geekforgeeks daily challenge",
+        "Don't worry Javatpoint got you covered. Study well!"
+    ]
+  },
+
+
+  {
+    "tag": "news",
+    "patterns": [
+        "news",
+        "latest news",
+        "india news"
+    ],
+    "responses": [
+        "..."
+    ]
+  },
+  {
+    "tag": "song",
+    "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        " top 10 songs",
+        "top ten songs"
+    ],
+    "responses": [
+        "..."
+    ]
+  },
+  {
+      "tag": "lang",
+      "patterns": [
+        "  What language are you written in? "
+      ],
+      "responses": [
+        " Python.",
+        " I am written in Python."
+      ]
+    },
+  {
+    "tag": "Questions",
+    "patterns": [
+      "Tell me a leetcode question",
+      "test me on my coding skills",
+      "give me a coding question",
+      "Give me a leetcode question"
+    ],
+    "responses": [
+      "Solve this! https://leetcode.com/problems/delete-columns-to-make-sorted/",
+      "Solve this! https://leetcode.com/problems/two-sum/",
+      "Here is a question for you: https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "Can you solve this? https://leetcode.com/problems/median-of-two-sorted-arrays/",
+      "There you go - https://leetcode.com/problems/longest-palindromic-substring/"
+    ]
+  },
+  {
+    "tag": "about",
+    "patterns": [
+      "how are you doing?",
+      "how are you?"
+    ],
+    "responses": [
+      "I'm good!",
+      "Amazing!, what can i help you with?"
+    ]
+  },
+  {
+    "tag": "name",
+    "patterns": [
+      "Tell me your name",
+      
+      "what is your name?"
+    ],
+    "responses": [
+      "Hi, I'm LILY.",
+      "Good to see you, I'm Lily"
+    ]
+  },
+
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems  the first thing he did was make me pay in advance",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
